@@ -28,7 +28,7 @@ useEffect(() => {
     <Container style={{ width: "1280px"}} 
     >
     <div className="App">
-      <Header style={{ color: 'yellow', fontSize:'50px',
+      <Header style={{ color: 'black', fontSize:'50px',
   textShadow: '1px 1px 5px #fff'}}>React Wars</Header>
       {char.map((data, index) => (
         <CharacterList key={index} 
