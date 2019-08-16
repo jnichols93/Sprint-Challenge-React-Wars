@@ -9,7 +9,7 @@ const CharacterList = (props) => {
         style={{ height: "70vh", margin: "0 auto", marginTop: "40px" }}
         verticalAlign="middle"
         >
-        <Card style={{ color:"yellow", backgroundColor:"black", border: "2px blue solid"}}>
+        <Card style={{ color:"yellow", backgroundColor:"black", border: "2px solid yellow"}}>
             <h1>Starwars</h1>
             <h2>Name: {props.name}</h2>
             <h3>Gender: {props.gender}</h3>
